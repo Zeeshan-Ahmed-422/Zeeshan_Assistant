@@ -1,0 +1,76 @@
+{
+  "applications": {
+    "notepad": {
+      "command": "notepad.exe",
+      "keywords": ["notepad", "text editor", "note pad"]
+    },
+    "word": {
+      "command": "winword.exe",
+      "keywords": ["word", "microsoft word", "ms word"]
+    },
+    "excel": {
+      "command": "excel.exe",
+      "keywords": ["excel", "spreadsheet", "ms excel"]
+    },
+    "vscode": {
+      "command": "code",
+      "keywords": ["vscode", "vs code", "visual studio code", "code editor"]
+    },
+    "browser": {
+      "command": "start chrome",
+      "keywords": ["browser", "chrome", "internet"]
+    },
+    "calculator": {
+      "command": "calc.exe",
+      "keywords": ["calculator", "calc"]
+    }
+  },
+  "websites": {
+    "gmail": {
+      "url": "https://mail.google.com",
+      "keywords": ["gmail", "email", "mail"]
+    },
+    "youtube": {
+      "url": "https://youtube.com",
+      "keywords": ["youtube", "videos"]
+    },
+    "github": {
+      "url": "https://github.com",
+      "keywords": ["github", "git hub"]
+    },
+    "google": {
+      "url": "https://google.com",
+      "keywords": ["google", "search"]
+    },
+    "chatgpt": {
+      "url": "https://chat.openai.com",
+      "keywords": ["chatgpt", "chat gpt", "openai"]
+    }
+  },
+  "workflows": {
+    "start_my_day": {
+      "description": "Opens frequently used applications and websites",
+      "keywords": ["start my day", "begin work", "start work"],
+      "uses_memory": true
+    },
+    "end_my_day": {
+      "description": "Closes applications and saves state",
+      "keywords": ["end my day", "finish work", "close work"],
+      "uses_memory": true
+    }
+  },
+  "system_commands": {
+    "time": {
+      "keywords": ["time", "what time", "current time"]
+    },
+    "date": {
+      "keywords": ["date", "today's date", "what date"]
+    },
+    "create_folder": {
+      "keywords": ["create folder", "make folder", "new folder"]
+    },
+    "clean_downloads": {
+      "keywords": ["clean downloads", "organize downloads", "clear downloads"]
+    }
+  }
+}

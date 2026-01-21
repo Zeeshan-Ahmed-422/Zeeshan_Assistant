@@ -1,0 +1,27 @@
+{
+  "daily_patterns": {
+    "2026-01-21": {
+      "apps": [
+        "notepad"
+      ],
+      "websites": [],
+      "commands_count": 1
+    }
+  },
+  "frequent_apps": {
+    "notepad": 1
+  },
+  "frequent_websites": {},
+  "command_history": [
+    {
+      "timestamp": "2026-01-21 11:52:39",
+      "command": "notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 11,
+      "day_of_week": "Wednesday"
+    }
+  ],
+  "preferences": {}
+}

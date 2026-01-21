@@ -2,16 +2,22 @@
   "daily_patterns": {
     "2026-01-21": {
       "apps": [
-        "notepad"
+        "notepad",
+        "camera"
       ],
-      "websites": [],
-      "commands_count": 1
+      "websites": [
+        "youtube"
+      ],
+      "commands_count": 18
     }
   },
   "frequent_apps": {
-    "notepad": 1
+    "notepad": 6,
+    "camera": 3
   },
-  "frequent_websites": {},
+  "frequent_websites": {
+    "youtube": 3
+  },
   "command_history": [
     {
       "timestamp": "2026-01-21 11:52:39",
@@ -20,6 +26,159 @@
       "action_name": "notepad",
       "success": true,
       "hour": 11,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 13:19:21",
+      "command": "open notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 13,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 14:41:46",
+      "command": "open notepad open notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 14,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 14:55:57",
+      "command": "open camera",
+      "action_type": "open_app",
+      "action_name": "camera",
+      "success": true,
+      "hour": 14,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:01:14",
+      "command": "open camera",
+      "action_type": "open_app",
+      "action_name": "camera",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:01:53",
+      "command": "close camera",
+      "action_type": "open_app",
+      "action_name": "camera",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:03:16",
+      "command": "open notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:12:36",
+      "command": "what is the time",
+      "action_type": "system_info",
+      "action_name": "time",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:29:21",
+      "command": "what is the time",
+      "action_type": "system_info",
+      "action_name": "time",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:31:07",
+      "command": "open notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:38:06",
+      "command": "open youtube",
+      "action_type": "open_website",
+      "action_name": "youtube",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:39:02",
+      "command": "open youtube",
+      "action_type": "open_website",
+      "action_name": "youtube",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:41:11",
+      "command": "what time it is",
+      "action_type": "system_info",
+      "action_name": "time",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:45:08",
+      "command": "create new folder in c drive",
+      "action_type": "file_operation",
+      "action_name": "create_folder",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:46:09",
+      "command": "create a new folder and open that folder",
+      "action_type": "file_operation",
+      "action_name": "create_folder",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:50:09",
+      "command": "open notepad",
+      "action_type": "open_app",
+      "action_name": "notepad",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:50:39",
+      "command": "open youtube",
+      "action_type": "open_website",
+      "action_name": "youtube",
+      "success": true,
+      "hour": 15,
+      "day_of_week": "Wednesday"
+    },
+    {
+      "timestamp": "2026-01-21 15:51:15",
+      "command": "create a new folder",
+      "action_type": "file_operation",
+      "action_name": "create_folder",
+      "success": true,
+      "hour": 15,
       "day_of_week": "Wednesday"
     }
   ],

@@ -3,7 +3,15 @@
     {
       "type": "open_app",
       "name": "notepad"
+    },
+    {
+      "type": "open_app",
+      "name": "camera"
+    },
+    {
+      "type": "open_website",
+      "name": "youtube"
     }
   ],
-  "last_updated": "2026-01-21 11:52:39"
+  "last_updated": "2026-01-21 15:50:39"
 }

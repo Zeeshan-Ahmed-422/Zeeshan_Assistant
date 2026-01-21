@@ -12,6 +12,10 @@
       "command": "excel.exe",
       "keywords": ["excel", "spreadsheet", "ms excel"]
     },
+    "camera": {
+      "command": "start microsoft.windows.camera:",
+      "keywords": ["camera", "webcam", "cam", "open camera"]
+    },
     "vscode": {
       "command": "code",
       "keywords": ["vscode", "vs code", "visual studio code", "code editor"]
